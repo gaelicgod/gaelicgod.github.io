@@ -4,6 +4,7 @@ import Swap from "./miden/Swap";
 import P2ID from "./miden/P2ID";
 import P2IDE from "./miden/P2IDE";
 import MINT from "./miden/MINT";
+import BURN from "./miden/BURN";
 
 function Home() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/miden/p2id" element={<P2ID />} />
         <Route path="/miden/p2ide" element={<P2IDE />} />
         <Route path="/miden/mint" element={<MINT />} />
+        <Route path="/miden/burn" element={<BURN />} />
       </Routes>
     </HashRouter>
   );
