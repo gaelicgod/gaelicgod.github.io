@@ -1,6 +1,7 @@
 import "./App.css";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Swap from "./miden/Swap";
+import P2ID from "./miden/P2ID";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/miden/swap" element={<Swap />} />
+        <Route path="/miden/p2id" element={<P2ID />} />
       </Routes>
     </HashRouter>
   );
